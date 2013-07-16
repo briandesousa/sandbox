@@ -1,0 +1,217 @@
+@CHARSET "ISO-8859-1";
+
+body 
+{ 
+	font-style: Verdana; 
+	font-size: 11pt; 
+	background-color: #FFFFFF;
+}
+
+h1 
+{ 
+	font-weight: bold; 
+	font-family: Verdana; 
+	font-size: 14pt; 
+}
+
+.pageHeader 
+{ 
+	text-align: center; 
+	padding: 10px; 
+	font-size: 16pt;
+	font-weight: bold;
+	font-family: Verdana;
+}
+
+.topNav
+{
+	border: 2px solid; 
+	border-radius: 10px; 
+	background-color: #EEEEEE;
+	padding: 3px;
+	text-align: center;
+}
+
+.topNav a
+{
+	font-weight: Bold;
+	font-size: 12pt;
+	margin: 10px;
+	text-decoration: none;
+	color: #000000;
+	font-family: Arial;
+}
+
+.topNav a:hover
+{
+	background: #FFFAAA;
+	
+}
+
+.randomQuestionHeading 
+{
+	padding: 10px 10px 0px 10px; 
+	font-size: 16pt;
+	font-weight: bold;
+	font-style: italic;
+	font-family: Verdana;
+}
+
+#questionBox 
+{
+	background-color: #91ACE3;
+	padding: 10px;
+}
+
+#questionBox header 
+{
+	font-style: italic;
+	font-size: 12pt;
+}
+
+#questionBox section 
+{
+	font-family: 'Michroma', sans-serif;
+	font-size: 16pt;
+}
+
+#questionBox canvas 
+{
+	border: 3px solid #CDCDCD;
+	height: 200px;
+	width: 400px;
+}
+
+#locationInfo
+{
+	border: 1px solid black;
+	width: auto;
+	padding: 10px;
+}
+
+.refreshButton 
+{
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 10px;
+	display: inline;
+	background: rgba(0,0,0,0.25);
+	
+	border: 1px solid rgba(0,0,0,0.5);
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	
+	text-shadow: 
+		-1px -1px 0 #000000,
+		1px -1px 0 #000000,
+		-1px 1px 0 #000000,
+		1px, 1px 0 #000000;
+
+	box-shadow: 
+        0 2px 8px rgba(0,0,0,0.5), /* Exterior Shadow */
+        inset 0 1px rgba(255,255,255,0.3), /* Top light Line */
+        inset 0 10px rgba(255,255,255,0.2), /* Top Light Shadow */
+        inset 0 10px 20px rgba(255,255,255,0.25), /* Sides Light Shadow */
+        inset 0 -15px 30px rgba(0,0,0,0.3); /* Dark Background */
+
+    -o-box-shadow: 
+        0 2px 8px rgba(0,0,0,0.5),
+        inset 0 1px rgba(255,255,255,0.3),
+        inset 0 10px rgba(255,255,255,0.2),
+        inset 0 10px 20px rgba(255,255,255,0.25),
+        inset 0 -15px 30px rgba(0,0,0,0.3);
+
+    -webkit-box-shadow: 
+        0 2px 8px rgba(0,0,0,0.5),
+        inset 0 1px rgba(255,255,255,0.3),
+        inset 0 10px rgba(255,255,255,0.2),
+        inset 0 10px 20px rgba(255,255,255,0.25),
+        inset 0 -15px 30px rgba(0,0,0,0.3);
+
+    -moz-box-shadow:
+        0 2px 8px rgba(0,0,0,0.5),
+        inset 0 1px rgba(255,255,255,0.3),
+        inset 0 10px rgba(255,255,255,0.2),
+        inset 0 10px 20px rgba(255,255,255,0.25),
+        inset 0 -15px 30px rgba(0,0,0,0.3);
+}
+
+.refreshButton_Down
+{
+	text-shadow: 
+		-1px -1px 0 #000000,
+		1px -1px 0 #000000,
+		-1px 1px 0 #000000,
+		1px, 1px 0 #000000;
+	
+	background: rgba(0,0,0,0.25);
+	
+	box-shadow: 
+        0 2px 8px rgba(0,0,0,0.5), /* Exterior Shadow */
+        inset 0 1px rgba(255,255,255,0.3), /* Top light Line */
+        inset 0 10px rgba(255,255,255,0.2), /* Top Light Shadow */
+        inset 0 10px 20px rgba(255,255,255,0.25), /* Sides Light Shadow */
+        inset 0 -15px 30px rgba(0,255,255,0.3); /* Dark Background */
+
+    -o-box-shadow: 
+        0 2px 8px rgba(0,0,0,0.5),
+        inset 0 1px rgba(255,255,255,0.3),
+        inset 0 10px rgba(255,255,255,0.2),
+        inset 0 10px 20px rgba(255,255,255,0.25),
+        inset 0 -15px 30px rgba(0,255,255,0.3);
+
+    -webkit-box-shadow: 
+        0 2px 8px rgba(0,0,0,0.5),
+        inset 0 1px rgba(255,255,255,0.3),
+        inset 0 10px rgba(255,255,255,0.2),
+        inset 0 10px 20px rgba(255,255,255,0.25),
+        inset 0 -15px 30px rgba(0,255,255,0.3);
+
+    -moz-box-shadow:
+        0 2px 8px rgba(0,0,0,0.5),
+        inset 0 1px rgba(255,255,255,0.3),
+        inset 0 10px rgba(255,255,255,0.2),
+        inset 0 10px 20px rgba(255,255,255,0.25),
+        inset 0 -15px 30px rgba(0,255,255,0.3);
+}
+
+.refreshButton_Over
+{
+	text-shadow: 
+		-1px -1px 0 #000000,
+		1px -1px 0 #000000,
+		-1px 1px 0 #000000,
+		1px, 1px 0 #000000;
+	
+	background: rgba(0,0,0,0.25);
+	
+	box-shadow: 
+        0 2px 8px rgba(0,0,0,0.5), /* Exterior Shadow */
+        inset 0 1px rgba(255,255,255,0.3), /* Top light Line */
+        inset 0 10px rgba(255,255,255,0.2), /* Top Light Shadow */
+        inset 0 10px 20px rgba(255,255,255,0.25), /* Sides Light Shadow */
+        inset 0 -15px 30px rgba(255,255,255,0.3); /* Dark Background */
+
+    -o-box-shadow: 
+        0 2px 8px rgba(0,0,0,0.5),
+        inset 0 1px rgba(255,255,255,0.3),
+        inset 0 10px rgba(255,255,255,0.2),
+        inset 0 10px 20px rgba(255,255,255,0.25),
+        inset 0 -15px 30px rgba(255,255,255,0.3);
+
+    -webkit-box-shadow: 
+        0 2px 8px rgba(0,0,0,0.5),
+        inset 0 1px rgba(255,255,255,0.3),
+        inset 0 10px rgba(255,255,255,0.2),
+        inset 0 10px 20px rgba(255,255,255,0.25),
+        inset 0 -15px 30px rgba(255,255,255,0.3);
+
+    -moz-box-shadow:
+        0 2px 8px rgba(0,0,0,0.5),
+        inset 0 1px rgba(255,255,255,0.3),
+        inset 0 10px rgba(255,255,255,0.2),
+        inset 0 10px 20px rgba(255,255,255,0.25),
+        inset 0 -15px 30px rgba(255,255,255,0.3);
+}
